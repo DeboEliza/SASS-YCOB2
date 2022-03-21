@@ -1,0 +1,136 @@
+main {
+  padding-top: 10rem;
+  background-color: #09ff00; }
+  main div article H1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 40px;
+    padding-top: 80px;
+    background-image: url(../assets/img/panel-solar1000.jpg);
+    background-repeat: no-repeat;
+    border: 8px solid black; }
+  main div article div img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    border: 10px solid black; }
+  main div article div p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px; }
+  main a img {
+    width: 300px;
+    padding: 50px;
+    height: 0.5 cm;
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+    margin-left: 50px; }
+
+main div div div table thead tr th {
+  font-size: 1em;
+  color: black; }
+
+main .carusel-de-fotos .carusel-de-fotos1 {
+  margin-right: auto;
+  padding-left: 10%; }
+
+main .video .videoPosicion {
+  margin-top: 30px; }
+
+footer {
+  background-image: linear-gradient(blue, green);
+  margin: 0px; }
+  footer H3 {
+    padding-left: 100px; }
+  footer div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 100px; }
+    footer div a img {
+      width: 60px;
+      padding-left: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #e3ee82;
+      border: solid 1px; }
+      footer div a img :hover {
+        padding: 20px;
+        transform: skewY(25deg); }
+
+header {
+  position: fixed;
+  z-index: 5;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  height: 100px;
+  margin: 100px;
+  margin-top: 0%;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-column: 100px 10px 10px 10px 10px;
+  background: linear-gradient(to left, #66db66, yellow, blue); }
+  header div a img {
+    margin-top: 0%;
+    width: 150px;
+    margin-left: 5px;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+    animation-name: paisaje-logo;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-duration: 5s; }
+
+@keyframes paisaje-logo {
+  0% {
+    transform: translateX(-50); }
+  50% {
+    transform: translateY(50); }
+  100% {
+    transform: rotate(360deg); } }
+
+nav {
+  padding-top: 5rem; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 156px;
+    left: 200px;
+    padding-left: 100px;
+    margin: 5%; }
+    nav ul li {
+      list-style-type: none;
+      padding: 10px;
+      font-size: 17px;
+      width: 100px;
+      height: 100px;
+      transition: all 2s; }
+      nav ul li:hover {
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        background-color: #e3ee82; }
+      nav ul li a {
+        font-size: 17px;
+        color: black;
+        margin-left: 10px; }
+
+.position-relative, main .imagenCasaGift img {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 400px;
+  border: 10px solid black; }
+
+.position-relativeR, main div .preguntas .otrasPreguntas .primer-pregunta, main .carusel-de-fotos .carusel-de-fotos1, main .video .videoPosicion {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  margin-left: 400px; }

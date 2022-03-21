@@ -1,0 +1,121 @@
+main{ padding-top: 10rem;
+    background-color:$bgcolorsecundario;
+       div{
+         article{
+                    H1{
+                        font-size: 50px;
+                        text-align: center;
+                        margin-bottom: 5%;
+                        padding: 40px;
+                        padding-top: 80px;
+                        background-image: url(../assets/img/panel-solar1000.jpg);
+                        background-repeat: no-repeat;
+                        border: 8px solid black;
+
+                     }
+                 div{
+                       img{
+                        display: block;
+                        margin: auto;
+                        width: 300px;
+                        border: 10px solid black;
+
+                        }
+                    }
+                   div{
+                       p{
+                         font-size:  $fuente-chica ;
+                        text-align: center;
+                        margin-top: 50px;
+                        padding: 30px;
+                        
+                      }
+                    }
+                }
+            }
+        a{
+            img{width: 300px;
+                padding: 50px;
+                height: 0.5 cm;
+                width: 200px; height: 200px;
+                transition: all 2s;
+                margin-left: 50px;
+
+            }
+        }
+     
+    
+}
+
+
+main{ 
+    div{
+        div{
+            div{
+                table{
+                    thead{
+                        tr{
+                            th{
+                                font-size:$fuente-normal;
+                                color: $color-6;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        
+    }
+}
+
+            
+
+main{
+    .imagenCasaGift{
+                    img{ 
+                        @extend .position-relative;
+                    
+
+                    }
+       
+    }
+}
+
+main{
+    div{
+        .preguntas{
+            .otrasPreguntas{
+                .primer-pregunta{ 
+                    @extend .position-relativeR;
+                              
+                }
+                
+            }
+            
+        }
+    }
+}
+
+main{
+    .carusel-de-fotos{
+        .carusel-de-fotos1{
+            @extend .position-relativeR;
+            margin-right: auto;
+            padding-left: 10%;
+
+        }
+    }
+}
+  
+main{
+    .video{
+        .videoPosicion{
+            @extend .position-relativeR;
+            margin-top: 30px;
+        }
+    }
+}
+

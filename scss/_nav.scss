@@ -1,0 +1,35 @@
+nav{ padding-top: 5rem;
+
+    ul {display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 156px;
+        left: 200px;
+        padding-left: 100px;
+        margin: 5%;
+   
+        li{  
+            list-style-type:none;
+            padding: 10px;
+            font-size: 17px;
+            width: 100px; height: 100px;
+            transition: all 2s;
+            &:hover {
+                height: 200px; width: 200px;
+                padding: 10px;
+               background-color: rgb(227, 238, 130)
+                 } 
+           
+          a{
+              font-size: 17px;
+              $tipografia-alternativa: 'Times New Roman', Times, serif;
+              color: black;
+              margin-left: 10px;
+            
+            
+            }
+        }  
+    }
+}
+
+
